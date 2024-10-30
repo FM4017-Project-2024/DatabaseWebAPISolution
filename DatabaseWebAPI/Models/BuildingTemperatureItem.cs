@@ -18,7 +18,7 @@ namespace DatabaseWebAPI.Models
         public float Temp5 { get; set; }
         [Required]
         [MaxLength(10)]
-        public string? TempUoM { get; set; } = "deg C";
+        public string? TempUoM { get; set; } = "°C";
         [Required]
         public DateTime? TempDateTime { get; set; } = DateTime.Now;
     }
