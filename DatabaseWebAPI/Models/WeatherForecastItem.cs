@@ -21,6 +21,9 @@ namespace DatabaseWebAPI.Models
         public float WindDirection { get; set; }
 
         [Required]
+        public float WindSpeed { get; set; }
+
+        [Required]
         public float Humidity { get; set; }
 
         [Required]
